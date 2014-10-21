@@ -37,5 +37,9 @@ rectangle4 = drawpad.create_rectangle(410,480,450,520,fill='yellow')
 oval1 = drawpad.create_oval(410,560,420,570,fill='blue')
 #chimney
 rectangle5 = drawpad.create_rectangle(481,400,501,300,fill='purple')
-
+#grass
+line3 = drawpad.create_line(0,600,299,600,fill='green')
+line4 = drawpad.create_line(0,599,299,599,fill='green')
+line5 = drawpad.create_line(501,600,800,600,fill='green')
+line6 = drawpad.create_line(501,599,800,599,fill='green')
 root.mainloop()
