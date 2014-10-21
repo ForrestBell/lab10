@@ -31,6 +31,11 @@ line2 = drawpad.create_line(500,400,400,300)
 #door
 rectangle2 = drawpad.create_rectangle(400,540,450,600)
 #windows
-rectangle3 = drawpad.create_rectangle(340,480,400,520)
-rectangle4 = drawpad.create_rectangle(410,480,450,520)
+rectangle3 = drawpad.create_rectangle(340,480,400,520,fill='green')
+rectangle4 = drawpad.create_rectangle(410,480,450,520,fill='yellow')
+#doorknob
+oval1 = drawpad.create_oval(410,560,420,570,fill='blue')
+#chimney
+rectangle5 = drawpad.create_rectangle(481,400,501,300,fill='purple')
+
 root.mainloop()
